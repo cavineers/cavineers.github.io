@@ -50,12 +50,19 @@ plugins:
       repository: Cavineers/Learning
       branch: learningdevelopment
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+
 nav:
-  # - Section:
-  #     - section/index.md 
-  #     - Page 1: section/page-1.md
-  #     ...
-  #     - Page n: section/page-n.md
+  - Commands:
+      - Commands/index.md 
+      # - Page 1: section/page-1.md
+      # ...
+      # - Page n: section/page-n.md
 
     
 
