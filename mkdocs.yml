@@ -42,6 +42,9 @@ theme:
 
     - announce.dismiss
 
+    - content.code.copy
+    - content.tabs.link
+
 plugins:
   - search
   - git-revision-date-localized:
@@ -56,11 +59,20 @@ markdown_extensions:
   - pymdownx.superfences
   - attr_list
   - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
 
 nav:
   - Commands:
       - Commands/index.md 
-      # - Page 1: section/page-1.md
+      - Structuring a Command: Commands/structure.md
+      - Properties of a Command: Commands/properties.md
+      - Command Composition:
+        - Commands/Composition/compositions.md
       # ...
       # - Page n: section/page-n.md
 
