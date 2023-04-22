@@ -7,7 +7,7 @@ When writing a command, you need to specify what the command should do in each o
 
     The `end()` method actually provides a parameter to check if the command ended normally, or was interrupted.
 
-    ``` java hl_lines='1'
+    ``` java
         void end(boolean interrupted){
             if (interrupted == True){
                 // The command has been interrupted

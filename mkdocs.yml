@@ -1,4 +1,4 @@
-site_name: Cavineers Software Learning
+site_name: Cavineers Learning
 repo_url: https://github.com/cavineers/Learning
 repo_name: Cavineers/Learning
 theme:
@@ -33,9 +33,12 @@ theme:
     - navigation.instant
     - navigation.tracking
     - navigation.tabs
-    - navigation.sections
+    - navigation
     - navigation.path
     - navigation.indexes
+    - navigation.instant
+    - navigation.footer
+
 
     - search.suggest
     - search.share
@@ -65,17 +68,27 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  
 
 nav:
-  - Commands:
-      - Commands/index.md 
-      - Structuring a Command: Commands/structure.md
-      - Properties of a Command: Commands/properties.md
-      - Command Composition:
-        - Commands/Composition/compositions.md
-      # ...
-      # - Page n: section/page-n.md
+  - Software:
+      - Commands:
+        - Software/Commands/index.md 
+        - Structuring a Command: Software/Commands/structure.md
+        - Properties of a Command: Software/Commands/properties.md
+        - Command Composition:
+          - Software/Commands/Composition/compositions.md
+          - Compositional Types: Software/Commands/Composition/types.md
+        # ...
+        # - Page n: section/page-n.md
 
+  - Hardware:
+      - Hardware/index.md 
+
+  - Mechanical:
+      - Mechanical/index.md 
     
 
   
