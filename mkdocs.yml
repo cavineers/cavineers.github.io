@@ -54,7 +54,7 @@ plugins:
       enable_creation_date: true
   - git-committers:
       repository: Cavineers/Learning
-      branch: learningdevelopment
+      branch: development
 
 markdown_extensions:
   - admonition
@@ -89,6 +89,9 @@ nav:
 
   - Mechanical:
       - Mechanical/index.md 
+
+# extra:
+#   homepage: https://cavineers.github.io/index.html
     
 
   
