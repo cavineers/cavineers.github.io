@@ -52,9 +52,6 @@ plugins:
   - search
   - git-revision-date-localized:
       enable_creation_date: true
-  - git-committers:
-      repository: Cavineers/Learning
-      branch: development
 
 markdown_extensions:
   - admonition
