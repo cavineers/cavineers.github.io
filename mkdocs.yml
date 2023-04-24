@@ -1,0 +1,96 @@
+site_name: Cavineers Learning
+repo_url: https://github.com/cavineers/Learning
+repo_name: Cavineers/Learning
+theme:
+  name: material
+
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  icon:
+    repo: material/git
+
+  font:
+    text: Roboto
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: red
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: red
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation
+    - navigation.path
+    - navigation.indexes
+    - navigation.instant
+    - navigation.footer
+
+
+    - search.suggest
+    - search.share
+
+    - announce.dismiss
+
+    - content.code.copy
+    - content.tabs.link
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: Cavineers/Learning
+      branch: learningdevelopment
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  
+
+nav:
+  - Software:
+      - Commands:
+        - Software/Commands/index.md 
+        - Structuring a Command: Software/Commands/structure.md
+        - Properties of a Command: Software/Commands/properties.md
+        - Command Composition:
+          - Software/Commands/Composition/compositions.md
+          - Compositional Types: Software/Commands/Composition/types.md
+        # ...
+        # - Page n: section/page-n.md
+
+  - Hardware:
+      - Hardware/index.md 
+
+  - Mechanical:
+      - Mechanical/index.md 
+    
+
+  
+
+
