@@ -56,9 +56,18 @@ plugins:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
   - attr_list
   - md_in_html
+
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -80,6 +89,10 @@ nav:
           - Compositional Types: Software/Commands/Composition/types.md
         # ...
         # - Page n: section/page-n.md
+      - Advanced:
+        - Software/Advanced/index.md
+        - PID Controllers: Software/Advanced/pid.md
+  
 
   - Hardware:
       - Hardware/index.md 
