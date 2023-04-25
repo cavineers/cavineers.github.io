@@ -71,6 +71,12 @@ markdown_extensions:
 
 nav:
   - Software:
+      - Java Basics:
+        - Software/JavaBasics/index.md
+        - Hello World: Software/JavaBasics/helloWorld.md
+        - Classes: Software/JavaBasics/classes.md
+        - Methods: Software/JavaBasics/methods.md
+        - Variables: Software/JavaBasics/variables.md
       - Commands:
         - Software/Commands/index.md 
         - Structuring a Command: Software/Commands/structure.md
