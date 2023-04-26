@@ -97,7 +97,7 @@ nav:
         - Software/Subsystems/index.md
         - Building a Subsystem: Software/Subsystems/buildingASubsystem.md
         - Subsystem Variables: Software/Subsystems/subsystemVariables.md
-        - Motors and Sensors: Software/Subsystems/motorsAndSensorsInit.md
+        - Motors and Sensors: Software/Subsystems/motorsAndSensors.md
         - Motor States: Software/Subsystems/motorStates.md
     - Git and Github:
       - Software/Git/index.md
