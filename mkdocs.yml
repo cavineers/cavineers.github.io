@@ -96,6 +96,10 @@ nav:
           - Compositional Types: Software/Commands/Composition/types.md
       - Subsystems:
         - Software/Subsystems/index.md
+        - Building a Subsystem: Software/Subsystems/buildingASubsystem.md
+        - Subsystem Variables: Software/Subsystems/subsystemVariables.md
+        - Motors and Sensors: Software/Subsystems/motorsAndSensors.md
+        - Motor States: Software/Subsystems/motorStates.md
     - Git and Github:
       - Software/Git/index.md
       # ...
@@ -109,11 +113,11 @@ nav:
         - Encapsulation: Software/Java/encapsulation.md
 
   - Hardware:
-    - Hardware/index.md 
-    - Sensors:
-      - Hardware/Sensors/index.md
-      - Digital Sensors: Hardware/Sensors/digital.md
-      - Analog Sensors: Hardware/Sensors/analog.md
+      - Hardware/index.md 
+      # - Sensors:
+      #   - Hardware/Sensors/index.md
+      #   - Digital Sensors: Hardware/Sensors/digital.md
+      #   - Analog Sensors: Hardware/Sensors/analog.md
 
   - Mechanical:
     - Mechanical/index.md 
