@@ -96,27 +96,27 @@ nav:
           - Compositional Types: Software/Commands/Composition/types.md
       - Subsystems:
         - Software/Subsystems/index.md
-      - Git and Github:
-        - Software/Git/index.md
-        # ...
-        # - Page n: section/page-n.md
-      - Advanced:
-        - Software/Advanced/index.md
-        - PID Controllers: Software/Advanced/pid.md
-        - Advanced java: 
-          - Software/Java/advance.md
-          - Inheritance: Software/Java/inheritance.md
-          - Encapsulation: Software/Java/encapsulation.md
+    - Git and Github:
+      - Software/Git/index.md
+      # ...
+      # - Page n: section/page-n.md
+    - Advanced:
+      - Software/Advanced/index.md
+      - PID Controllers: Software/Advanced/pid.md
+      - Advanced java: 
+        - Software/Java/advance.md
+        - Inheritance: Software/Java/inheritance.md
+        - Encapsulation: Software/Java/encapsulation.md
 
-    - Hardware:
-        - Hardware/index.md 
-        - Sensors:
-          - Hardware/Sensors/index.md
-          - Digital Sensors: Hardware/Sensors/digital.md
-          - Analog Sensors: Hardware/Sensors/analog.md
+  - Hardware:
+    - Hardware/index.md 
+    - Sensors:
+      - Hardware/Sensors/index.md
+      - Digital Sensors: Hardware/Sensors/digital.md
+      - Analog Sensors: Hardware/Sensors/analog.md
 
-    - Mechanical:
-        - Mechanical/index.md 
+  - Mechanical:
+    - Mechanical/index.md 
 
 # extra:
 #   homepage: https://cavineers.github.io/index.html
