@@ -56,9 +56,18 @@ plugins:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
   - attr_list
   - md_in_html
+
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -91,17 +100,17 @@ nav:
         - Subsystem Variables: Software/Subsystems/subsystemVariables.md
         - Motors and Sensors: Software/Subsystems/motorsAndSensors.md
         - Motor States: Software/Subsystems/motorStates.md
-      - Git and Github:
-        - Software/Git/index.md
-        # ...
-        # - Page n: section/page-n.md
+    - Git and Github:
+      - Software/Git/index.md
+      # ...
+      # - Page n: section/page-n.md
     - Advanced:
+      - Software/Advanced/index.md
+      - PID Controllers: Software/Advanced/pid.md
       - Advanced java: 
         - Software/Java/advance.md
         - Inheritance: Software/Java/inheritance.md
         - Encapsulation: Software/Java/encapsulation.md
-
-
 
   - Hardware:
       - Hardware/index.md 
@@ -111,7 +120,7 @@ nav:
       #   - Analog Sensors: Hardware/Sensors/analog.md
 
   - Mechanical:
-      - Mechanical/index.md 
+    - Mechanical/index.md 
 
 # extra:
 #   homepage: https://cavineers.github.io/index.html
