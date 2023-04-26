@@ -45,7 +45,7 @@ This property can be set by:
         }
 
         boolean runsWhenDisabled(){
-            return true // Allows the command to run while disabled
+            return true; // Allows the command to run while disabled
         }
     }
     ```
