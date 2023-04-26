@@ -99,8 +99,7 @@ nav:
         - Command Composition:
           - Software/Commands/Composition/compositions.md
           - Compositional Types: Software/Commands/Composition/types.md
-    - Git and Github:
-      - Software/Git/index.md
+    - Git and Github: Software/gitAndGithub.md
       # ...
       # - Page n: section/page-n.md
     - Advanced:
