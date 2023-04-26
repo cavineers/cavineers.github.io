@@ -12,14 +12,14 @@
         <link rel="prev" href="../">
       
       
-        <link rel="next" href="../properties/">
+        <link rel="next" href="../../Java/advance/">
       
       <link rel="icon" href="../../../assets/logo.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.6">
     
     
       
-        <title>Structuring a Command - Cavineers Learning</title>
+        <title>PID Controllers - Cavineers Learning</title>
       
     
     
@@ -71,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#structure-of-a-command" class="md-skip">
+        <a href="#pid-controllers" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Structuring a Command
+              PID Controllers
             
           </span>
         </div>
@@ -348,16 +348,14 @@
               
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_1" checked>
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_1" >
       
       
         
@@ -374,7 +372,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_1_label" aria-expanded="true">
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_1_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_1_1">
           <span class="md-nav__icon md-icon"></span>
           Basic
@@ -497,16 +495,14 @@
               
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_1_2" checked>
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_1_2" >
       
       
         
@@ -525,7 +521,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../">Commands</a>
+          <a href="../../Commands/">Commands</a>
           
             <label for="__nav_1_1_2">
               <span class="md-nav__icon md-icon"></span>
@@ -533,7 +529,7 @@
           
         </div>
       
-      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_1_1_2_label" aria-expanded="true">
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_1_1_2_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_1_1_2">
           <span class="md-nav__icon md-icon"></span>
           Commands
@@ -546,65 +542,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Structuring a Command
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../Commands/structure/" class="md-nav__link">
         Structuring a Command
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#states" class="md-nav__link">
-    States
-  </a>
-  
-    <nav class="md-nav" aria-label="States">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#default-behavior" class="md-nav__link">
-    Default Behavior
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -616,7 +558,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../properties/" class="md-nav__link">
+      <a href="../../Commands/properties/" class="md-nav__link">
         Properties of a Command
       </a>
     </li>
@@ -663,7 +605,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Composition/compositions/" class="md-nav__link">
+      <a href="../../Commands/Composition/compositions/" class="md-nav__link">
         Command Compositions
       </a>
     </li>
@@ -677,7 +619,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Composition/types/" class="md-nav__link">
+      <a href="../../Commands/Composition/types/" class="md-nav__link">
         Compositional Types
       </a>
     </li>
@@ -814,14 +756,16 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_3" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_3" checked>
       
       
         
@@ -838,7 +782,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../Advanced/">Advanced</a>
+          <a href="../">Advanced</a>
           
             <label for="__nav_1_3">
               <span class="md-nav__icon md-icon"></span>
@@ -846,7 +790,7 @@
           
         </div>
       
-      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_3_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_3_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_1_3">
           <span class="md-nav__icon md-icon"></span>
           Advanced
@@ -859,11 +803,161 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../Advanced/pid/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          PID Controllers
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         PID Controllers
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#control-terms" class="md-nav__link">
+    Control Terms
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nomenclature" class="md-nav__link">
+    Nomenclature
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proportional-term" class="md-nav__link">
+    Proportional Term
+  </a>
+  
+    <nav class="md-nav" aria-label="Proportional Term">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ut-kpet" class="md-nav__link">
+    u(t) = Kpe(t)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integral-term" class="md-nav__link">
+    Integral Term
+  </a>
+  
+    <nav class="md-nav" aria-label="Integral Term">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ut-ki-etdt" class="md-nav__link">
+    u(t) = Ki ∫e(t)dt
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-steady-state-error" class="md-nav__link">
+    The Steady State Error
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definition" class="md-nav__link">
+    Definition
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#graph" class="md-nav__link">
+    Graph
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#derivative-term" class="md-nav__link">
+    Derivative Term
+  </a>
+  
+    <nav class="md-nav" aria-label="Derivative Term">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ut-kd-detdt" class="md-nav__link">
+    u(t) = Kd de(t)/dt
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    How it works
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tuning-a-pid-controller" class="md-nav__link">
+    Tuning a PID Controller
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1173,22 +1267,118 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#states" class="md-nav__link">
-    States
+  <a href="#control-terms" class="md-nav__link">
+    Control Terms
   </a>
   
-    <nav class="md-nav" aria-label="States">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nomenclature" class="md-nav__link">
+    Nomenclature
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proportional-term" class="md-nav__link">
+    Proportional Term
+  </a>
+  
+    <nav class="md-nav" aria-label="Proportional Term">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#default-behavior" class="md-nav__link">
-    Default Behavior
+  <a href="#ut-kpet" class="md-nav__link">
+    u(t) = Kpe(t)
   </a>
   
 </li>
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integral-term" class="md-nav__link">
+    Integral Term
+  </a>
+  
+    <nav class="md-nav" aria-label="Integral Term">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ut-ki-etdt" class="md-nav__link">
+    u(t) = Ki ∫e(t)dt
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-steady-state-error" class="md-nav__link">
+    The Steady State Error
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definition" class="md-nav__link">
+    Definition
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#graph" class="md-nav__link">
+    Graph
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#derivative-term" class="md-nav__link">
+    Derivative Term
+  </a>
+  
+    <nav class="md-nav" aria-label="Derivative Term">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ut-kd-detdt" class="md-nav__link">
+    u(t) = Kd de(t)/dt
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    How it works
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tuning-a-pid-controller" class="md-nav__link">
+    Tuning a PID Controller
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    Summary
+  </a>
   
 </li>
       
@@ -1210,34 +1400,178 @@
   
 
 
-<h1 id="structure-of-a-command">Structure of a Command</h1>
-<h2 id="states">States</h2>
-<p>When writing a command, you need to specify what the command should do in each of its possible states. To do this, you override the <code>initialize()</code>, <code>execute()</code>, and <code>end()</code> methods. The command should also be able to tell the scheduler when it has finished executing by overriding the <code>isFinished()</code> method.</p>
-<div class="admonition tip">
-<p class="admonition-title">end() Method</p>
-<p>The <code>end()</code> method actually provides a parameter to check if the command ended normally, or was interrupted.</p>
-<div class="language-java highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="nf">end</span><span class="p">(</span><span class="kt">boolean</span><span class="w"> </span><span class="n">interrupted</span><span class="p">){</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">interrupted</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">True</span><span class="p">){</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">            </span><span class="c1">// The command has been interrupted</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">        </span><span class="p">}</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">        </span><span class="k">else</span><span class="p">{</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">            </span><span class="c1">// The command has ended as expected</span>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">        </span><span class="p">}</span>
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">    </span><span class="p">}</span>
-</span></code></pre></div>
+<h1 id="pid-controllers">PID Controllers</h1>
+<p>The PID (Proportional-Integral-Derivative) controller is a widely used control algorithm in the field of robotics. It is an essential tool for controlling motor speed, position, and many other dynamic systems. </p>
+<h2 id="control-terms">Control Terms</h2>
+<p>A PID Controller is consisted of three terms that control its output.</p>
+<table>
+<thead>
+<tr>
+<th>Letter</th>
+<th>Term</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>P</strong></td>
+<td>Proportional</td>
+<td>proportional to the current error between the desired <strong>setpoint</strong> and the measured <strong>process variable</strong>.</td>
+</tr>
+<tr>
+<td><strong>I</strong></td>
+<td>Integral</td>
+<td>accumulates the error over time and provides a long-term correction to the <strong>control signal</strong>.</td>
+</tr>
+<tr>
+<td><strong>D</strong></td>
+<td>Derivative</td>
+<td>proportional to the rate of change of the error signal. It provides a damping effect to the <strong>control signal</strong></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition abstract">
+<p class="admonition-title">Definitions</p>
+<ul>
+<li><strong>Setpoint</strong>: The desired value of the <strong>process variable</strong>.</li>
+<li><strong>Process Variable</strong>: The value of the variable being controlled.</li>
+<li><strong>Control Signal</strong>: The output of the PID controller.</li>
+</ul>
 </div>
-<div class="admonition tip inline end">
-<p class="admonition-title">Tip</p>
-<p>If a command is not finishing correctly, make sure the <code>isFinished()</code> method returns true when the command should terminate</p>
+<h2 id="nomenclature">Nomenclature</h2>
+<p>The following nomenclature will be used to describe the PID controller's equations in this section.</p>
+<table>
+<thead>
+<tr>
+<th>Notation</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>e(t)</strong></td>
+<td>Error</td>
+</tr>
+<tr>
+<td><strong>u(t)</strong></td>
+<td>Control signal</td>
+</tr>
+<tr>
+<td><strong>r(t)</strong></td>
+<td>Setpoint</td>
+</tr>
+<tr>
+<td><strong>y(t)</strong></td>
+<td>Process variable</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>K<sub>p</sub></strong></td>
+<td>Proportional gain</td>
+</tr>
+<tr>
+<td><strong>K<sub>i</sub></strong></td>
+<td>Integral gain</td>
+</tr>
+<tr>
+<td><strong>K<sub>d</sub></strong></td>
+<td>Derivative gain</td>
+</tr>
+</tbody>
+</table>
+<h2 id="proportional-term">Proportional Term</h2>
+<p>The Proportional term is responsible for adjusting the control output proportionally to the current error. This means that the larger the error, the larger the corrective action applied to the system. </p>
+<details class="note inline end" open="open">
+<summary><strong>K<sub>p</sub></strong> Proportional Gain</summary>
+<p>The Proportional gain, represented by the variable K determines the strength of this correction. A higher value of Kp results in a stronger correction for a given error.</p>
+</details>
+<p>The control signal of the proportional term is calculated as follows:</p>
+<h3 id="ut-kpet">u(t) = K<sub>p</sub>e(t)</h3>
+<p>The proportional gain is multiplied by the error to produce the control signal.</p>
+<p>A simple P controller can be modelled as follows:</p>
+<p><img align="center" alt="Simple P Controller Block Diagram" src="/assets\pid-p.png" /></p>
+<details class="abstract">
+<summary>A Physics Analogy</summary>
+<p>In Hooke's Law, the force applied by a spring is <strong>proportional</strong> to the displacement from its <strong>equilibrium</strong> position. Similarly, the P value in a PID controller determines the <strong>proportional response</strong> of the controller to the error signal, which is the difference between the <strong>desired setpoint</strong> and the actual measured value.</p>
+<p>Just as a stiffer spring will apply a larger force for the same amount of displacement, a higher P value will result in a larger correction for the same amount of error. However, if the P value is set too high, just like a spring that is too stiff, the controller's response will become too sensitive and can lead to overshooting or oscillations. Therefore, the P value needs to be carefully tuned to provide the appropriate proportional response to the error signal, resulting in stable and accurate control.</p>
+</details>
+<h2 id="integral-term">Integral Term</h2>
+<p>The Integral term is responsible for adjusting the control output based on the accumulated error over time. This means that the longer the error persists, the larger the corrective action applied to the system.</p>
+<details class="danger">
+<summary>FRC Use</summary>
+<p>Integral gain is not recommended for FRC use. It is usally better to use a feedforward controller to eliminate steady-state error. It is included here for completeness.</p>
+</details>
+<details class="note inline end" open="open">
+<summary><strong>K<sub>i</sub></strong> Integral Gain</summary>
+<p>The Integral gain, represented by the variable Ki determines the strength of this correction. A higher value of Ki results in a stronger correction for a given error.</p>
+</details>
+<p>The control signal of the integral term is calculated as follows:</p>
+<h3 id="ut-ki-etdt">u(t) = K<sub>i</sub> ∫e(t)dt</h3>
+<p>The integral gain is multiplied by the integral of the error to produce the control signal.</p>
+<h3 id="the-steady-state-error">The Steady State Error</h3>
+<div class="admonition bug">
+<p class="admonition-title">Steady State Error</p>
+<p>When the system is close the setpoint in steady-state, the proportional term may be too small to pull the output all the way to the setpoint, and the derivative term is zero. This can result in what is called a steady-state error.</p>
 </div>
-<h3 id="default-behavior">Default Behavior</h3>
-<p>If you don't want to specify any special behavior for these methods, they are already provided with default behavior. For example, <code>initialize()</code>, <code>execute()</code>, and <code>end()</code> do <b>nothing</b> by default, while <code>isFinished()</code> returns <b>false</b> by default. This creates a command that runs <b>indefinitely</b> until it is interrupted.</p>
+<h3 id="definition">Definition</h3>
+<ul>
+<li>Steady-state error is the difference between the setpoint and the process variable when the system has reached a steady-state.</li>
+</ul>
+<h3 id="graph">Graph</h3>
+<p><img align="center" alt="Steady State Error Graph" src="/assets\steadystate.png" /></p>
+<div class="admonition success">
+<p class="admonition-title">Solution to Steady State</p>
+<p>Using the Integral term we can solve this issue. Because the integral term accumulates the error over time, it will continue to increase until the error is zero. This means that the integral term will continue to increase until the steady-state error is eliminated.</p>
+<p>Seen in the figure below</p>
+<p><img align="right" alt="Steady State Solution" src="/assets\steadystatesolution.png" /></p>
+</div>
+<h2 id="derivative-term">Derivative Term</h2>
+<p>The Derivative term is responsible for adjusting the control output based on the rate of change of the error. This means that the faster the error changes, the larger the corrective action applied to the system.</p>
+<details class="note inline end" open="open">
+<summary><strong>K<sub>d</sub></strong> Derivative Gain</summary>
+<p>The Derivative gain, represented by the variable Kd determines the strength of this correction. A higher value of Kd results in a stronger correction for a given error.</p>
+</details>
+<p>The control signal of the derivative term is calculated as follows:</p>
+<h3 id="ut-kd-detdt">u(t) = K<sub>d</sub> de(t)/dt</h3>
+<p>The derivative gain is multiplied by the derivative of the error to produce the control signal.</p>
+<details class="note">
+<summary>FRC Use</summary>
+<p>The derivative term is less used in frc applications.</p>
+</details>
+<h3 id="how-it-works">How it works</h3>
+<p>The derivative term works by calculating the slope of the error signal over time, which gives an indication of how quickly the error is changing. This information can be used to predict the future behavior of the system and to adjust the control output accordingly.</p>
+<p>When the error is changing rapidly, the derivative term produces a large correction signal, which helps to dampen the system's response and prevent overshoot. On the other hand, when the error is changing slowly, the derivative term produces a smaller correction signal, which allows the system to respond more quickly to changes in the setpoint.</p>
 <div class="admonition info">
-<p class="admonition-title">Methods in Summary</p>
-<p><code>initialize()</code> --&gt; Called once per scheduling <br>
-<code>execute()</code> --&gt; Called every scheduler cycle that the command is scheduled <br>
-<code>end()</code> --&gt; Runs once per termination (at the end) <br>
-<code>isFinished()</code> --&gt; Called every scheduler cycle (if true --&gt; terminate command)</p>
+<p class="admonition-title">Predictive</p>
+<p>The derivative term can be thought of as a "predictive" element in the PID controller, since it uses information about the rate of change of the error signal to anticipate future changes in the process variable.</p>
+</div>
+<h2 id="tuning-a-pid-controller">Tuning a PID Controller</h2>
+<p>There are multiple different ways to tune a PID controller.</p>
+<p>For our purposes we use a trial and error method. There are alternatives such as the <a href="https://en.wikipedia.org/wiki/PID_controller#Ziegler–Nichols_method">Ziegler-Nichols method</a>, but they are not covered here.</p>
+<div class="admonition warning inline end">
+<p class="admonition-title">Time Consuming</p>
+<p>This method can be time-consuming and requires a good understanding of the system's behavior.</p>
+</div>
+<p>Manual tuning involves adjusting the proportional, integral, and derivative gains manually by trial and error. This method involves observing the system's response to changes in the setpoint and adjusting the gains to achieve the desired response. </p>
+<h2 id="summary">Summary</h2>
+<p>A PID (proportional-integral-derivative) controller is a control algorithm used in control systems to regulate a <strong>process variable</strong>, to a desired setpoint. The controller calculates an <strong>error signal</strong>, which is the difference between the <strong>setpoint and the actual value of the process variable</strong>. The controller then uses three components: the <strong>proportional</strong> term, the <strong>integral</strong> term, and the <strong>derivative</strong> term, to adjust the <strong>control output</strong> and bring the <strong>process variable</strong> closer to the <strong>setpoint</strong>.</p>
+<div class="admonition abstract">
+<p class="admonition-title">The Terms</p>
+<ul>
+<li>The <strong>proportional</strong> term provides a control output proportional to the <strong>error signal</strong></li>
+<li>The <strong>integral</strong> term takes into account the past error and <strong>accumulates</strong> it to reduce the <strong>steady-state error</strong></li>
+<li>The <strong>derivative</strong> term considers the rate of change of the <strong>error signal</strong> to predict the <strong>future</strong> behavior of the system. </li>
+</ul>
+<p>By using all three components (<em>tuned correctly</em>), a PID controller can respond to changes in the process variable quickly and accurately, and maintain stable control in the face of disturbances and other external factors.</p>
 </div>
 
   <hr>
@@ -1245,11 +1579,11 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 22, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 26, 2023</span>
       
         <br>
         Created:
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 21, 2023</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 25, 2023</span>
       
     
   </small>
@@ -1277,7 +1611,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Commands" rel="prev">
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Advanced Section" rel="prev">
             <div class="md-footer__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
             </div>
@@ -1286,20 +1620,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Commands
+                Advanced Section
               </div>
             </div>
           </a>
         
         
           
-          <a href="../properties/" class="md-footer__link md-footer__link--next" aria-label="Next: Properties of a Command" rel="next">
+          <a href="../../Java/advance/" class="md-footer__link md-footer__link--next" aria-label="Next: Advance" rel="next">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Properties of a Command
+                Advance
               </div>
             </div>
             <div class="md-footer__button md-icon">
