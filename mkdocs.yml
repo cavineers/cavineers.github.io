@@ -83,7 +83,6 @@ nav:
     - Basic:
       - Java basics:
         - Software/Java/index.md
-        - Hello World: Software/Java/helloWorld.md
         - Variables: Software/Java/variables.md
         - Classes: Software/Java/classes.md
         - Methods: Software/Java/methods.md
