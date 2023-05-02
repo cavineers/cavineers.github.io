@@ -759,48 +759,10 @@
   
   
   
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-      
-      
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_2" >
-      
-      
-        
-          
-        
-      
-      
-        <label class="md-nav__link" for="__nav_1_2" id="__nav_1_2_label" tabindex="0">
-          Git and Github
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_2_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_1_2">
-          <span class="md-nav__icon md-icon"></span>
-          Git and Github
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
     <li class="md-nav__item">
-      <a href="../Git/index.md" class="md-nav__link">
-        None
+      <a href="../gitAndGithub/" class="md-nav__link">
+        Git and Github
       </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
     </li>
   
 
@@ -1072,6 +1034,21 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why" class="md-nav__link">
+    Why?
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1089,14 +1066,18 @@
 
 
 <h1 id="subsystems">Subsystems</h1>
-<p>A Subsystem is a single motor or group of motors and sensors that work together to accomplish one certain task. An example of a subsystem would a a drivetrain, shooter, intake, etc.</p>
+<p>A mechanical subsystem is a specific part of the robot that will serve a special function. For example, the drivetrain is the subsystem on the robot that serves to drive the robot around the field. Each year the subsystems will change, but the general idea of a subsystem will remain the same.</p>
+<p>In programming, a subsystem is a file that will hold the bulk of the code that is for a single mechanical subsystem. These subsystem files house the declaration of motors and sensors, as well as the methods that will be used to control the subsystem. The subsystem files are then declared in the robot container file, where the subsystems are instantiated and used.</p>
+<p>These are the subsystems from the 2022 Charged UP Robot, Kelvin: <img alt="Alt text" src="../../assets/subsystems.png" /></p>
+<h2 id="why">Why?</h2>
+<p>When programming we make sure to divide the robot into different subsystems. This allows us to work on different parts of the robot at the same time. For example, one person can work on the drivetrain while another person works on the shooter. Additionally, by organizing the code into separate subsystems, it becomes easier to manage and debug the code, as well as to make changes or upgrades to specific subsystems without affecting the rest of the robot's functionality. Using subsystems can help with code reuse, as similar subsystems from different years or robots can be adapted for use in new designs.</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 25, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 26, 2023</span>
       
         <br>
         Created:
