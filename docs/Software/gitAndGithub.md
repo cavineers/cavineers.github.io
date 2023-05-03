@@ -38,7 +38,7 @@ GitHub works by providing a web-based interface for Git repositories. You can cr
 To get started with Git and GitHub, you'll need to follow a few steps:
 
 1. Install Git on your local machine. You can download Git [here](https://git-scm.com/downloads)
-2. Create a GitHub account. You can sign up for a free account [here](https://github.com/join)
+2. Create a GitHub account. You can sign up for a free account [here](https://github.com/join) -- make sure to add your GitHub name to [this](https://docs.google.com/spreadsheets/d/1zroNE0r3z9rl5tIAXXwvlAG2LtYadMz73Y8g2-uf4Mw/edit?usp=sharing) google sheet
 3. Download GitHub Desktop. You can download GitHub Desktop [here](https://desktop.github.com/)
 4. To get ahold of some base skills on GitHub, use [this link](https://github.com/roberts1y) and follow this programmer
 5. Check out the read me on [this repository](https://github.com/skills/introduction-to-github) and follow the steps to get started with Git and Github
