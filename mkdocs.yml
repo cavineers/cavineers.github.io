@@ -86,7 +86,7 @@ nav:
         - Variables: Software/Java/variables.md
         - Classes: Software/Java/classes.md
         - Methods: Software/Java/methods.md
-      - Subsystems:
+      - Robot:
         - Software/Subsystems/index.md
         - Building a Subsystem: Software/Subsystems/buildingASubsystem.md
         - Motors and Sensors: Software/Subsystems/motorsAndSensors.md

@@ -1,3 +1,7 @@
+## Upgrading your enviornment
+
+Before you can start coding the robot, you'll need to install one additional program, [WPILib](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html). This is the library we use when programming the installation includes the libraries and tools needed to program and deploy code to the robot.
+
 ## Creating your subsystem
 
 To create a subsystem in Java, you use the `class` keyword followed by the name of the manipulator you are making a subsystem for and lastly the subsystem class must extend SubsystemBase. Here's an example:
