@@ -11,10 +11,10 @@ Before you can start coding in Java, you'll need to set up your development envi
 
 ## Hello World
 
-The "Hello World" program is a classic example used to introduce beginners to programming languages. Create a new file in Vscode namd `helloWorld.java` and then paste this program into the file.
+The "Hello World" program is a classic example used to introduce beginners to programming languages. Create a new file in Vscode named `Main.java` and then paste this program into the file.
 
 ```java
-public class helloWorld {
+public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
     }
