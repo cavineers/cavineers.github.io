@@ -11,7 +11,7 @@ The software subteam holds  for writing the code that runs our robots. They use 
 - Creating a Scouting app for competition
 - Strategizing for autonomous
 
-## Hardware
+## [Hardware](Hardware/index.md)
 
 Hardware is responsible for wiring components and placing them on the robots. They use tools such as CAD (computer-aided design) software and 3D printers to create mounts and holders for components. Some of the hardware components they work with include:
 
@@ -20,7 +20,7 @@ Hardware is responsible for wiring components and placing them on the robots. Th
 - Sensors
 - Microcontrollers (such as Arduino and Raspberry Pi)
 
-## Mechanical
+## [Mechanical](Mechanical/index.md)
 
 The mechanical subteam is responsible for making the physical robot. Their responsibilities include:
 
@@ -30,5 +30,8 @@ The mechanical subteam is responsible for making the physical robot. Their respo
 
 ## Resources
 
-to be added
+| Resource | Description |
+| -------- | ----------- |
+| [Rev Hardware Client](https://www.revrobotics.com/rev-31-1153/) | client we use when setting CANIds for our motors and to monitor the Can Bus (information wire) that connects our motor controllers and several other components.
+| [FRC Game tools](https://www.ni.com/en-us/support/downloads/drivers/download.frc-game-tools.html#479842) | FRC Game Tools is a software bundle that includes the FRC Driver Station and FRC Utilities. These components are required for FRC teams to configure and control robots and communicate with the field.
 

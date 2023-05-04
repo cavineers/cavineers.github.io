@@ -80,6 +80,7 @@ markdown_extensions:
 
 nav:
   - Software:
+    - Software/index.md
     - Basic:
       - Java basics:
         - Software/Java/index.md
