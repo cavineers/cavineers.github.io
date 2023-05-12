@@ -52,6 +52,9 @@ plugins:
   - search
   - git-revision-date-localized:
       enable_creation_date: true
+  - git-authors
+
+
 
 markdown_extensions:
   - admonition
@@ -121,8 +124,10 @@ nav:
   - Mechanical:
     - Mechanical/index.md 
 
-# extra:
-#   homepage: https://cavineers.github.io/index.html
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/cavineers
     
 
   
