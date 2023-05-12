@@ -1,6 +1,8 @@
 ## Upgrading your enviornment
 
-Before you can start coding the robot, you'll need to install one additional program, [WPILib](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html). This is the library we use when programming the installation includes the libraries and tools needed to program and deploy code to the robot.
+Before you can start coding the robot, you'll need to install one more thing, [WPILib](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html). This is the library we use when programming the installation includes the libraries and tools needed to program and deploy code to the robot.
+
+Additionally, you'll need to make sure your VSCode has the updated extensions. To do this, go to the extensions tab and search for WPILib and install the WPILib extension.
 
 ## Creating your subsystem
 
