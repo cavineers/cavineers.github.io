@@ -82,8 +82,7 @@ markdown_extensions:
   
 
 nav:
-  - Software:
-    - Software/index.md
+  - Programming:
     - Basic:
       - Java basics:
         - Software/Java/index.md
@@ -103,9 +102,6 @@ nav:
         - Command Composition:
           - Software/Commands/Composition/compositions.md
           - Compositional Types: Software/Commands/Composition/types.md
-    - Git and Github: Software/gitAndGithub.md
-      # ...
-      # - Page n: section/page-n.md
     - Advanced:
       - Software/Advanced/index.md
       - PID Controllers: Software/Advanced/pid.md
@@ -113,6 +109,9 @@ nav:
         - Software/Java/advance.md
         - Inheritance: Software/Java/inheritance.md
         - Encapsulation: Software/Java/encapsulation.md
+  - Git and Github: Software/gitAndGithub.md
+      # ...
+      # - Page n: section/page-n.md
 
   - Hardware:
       - Hardware/index.md 
@@ -121,8 +120,8 @@ nav:
       #   - Digital Sensors: Hardware/Sensors/digital.md
       #   - Analog Sensors: Hardware/Sensors/analog.md
 
-  - Mechanical:
-    - Mechanical/index.md 
+# - Mechanical:
+  #  - Mechanical/index.md 
 
 extra:
   social:
