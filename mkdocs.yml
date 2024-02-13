@@ -110,9 +110,8 @@ nav:
         - Inheritance: Software/Java/inheritance.md
         - Encapsulation: Software/Java/encapsulation.md
   - Git and Github: Software/gitAndGithub.md
-      # ...
-      # - Page n: section/page-n.md
-
+  - Resources:
+    - Resources/index.md
   - Hardware:
       - Hardware/index.md 
       # - Sensors:
