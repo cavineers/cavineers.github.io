@@ -4,9 +4,10 @@ This page contains a list of resources that are used to control, program, and ma
 ## General Documentation
 | Documentation | Description |
 | ---------- | ----------- |
+| [Hardware Component Overview](https://docs.wpilib.org/en/stable/docs/controls-overviews/control-system-hardware.html) | A guide which provides a brief overview of the hardware components that make up the FRC Control System. Each component will contain a brief description of the component function and a link to more documentation. This link includes a wiring diagram and descriptions of our main components.
 | [Imaging the roboRIO2](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-3/roborio2-imaging.html) | A guide that shows how to image the roboRIO2. The roboRIO2 is the main computer that is used to control the robot. It is the brain of the robot.
 | [Imaging the roboRIO](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-3/imaging-your-roborio.html) | A guide that shows how to image the roboRIO. The roboRIO is the main computer that is used to control the robot. It is the brain of the robot.
-
+| [SPARK MAX LED Patterns](https://docs.revrobotics.com/sparkmax/status-led) | A guide that shows the different LED patterns that the SPARK MAX motor controller can display. The SPARK MAX controls all of the motors on our newer robots.
 ## Hardware
 | Software | Description |
 | ----------- | ----------- |

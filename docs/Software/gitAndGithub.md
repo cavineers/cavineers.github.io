@@ -2,7 +2,7 @@
 
 # Git and GitHub
 
-As a Rookie on Software, you've probably hear the terms Git and GitHub thrown around quite a bit. These two terms are often used interchangeably but they are not the same thing. Git is a version control system that helps you keep track of changes made to your code over time. GitHub, on the other hand, is a web-based platform that provides hosting for Git repositories and allows for collaboration on code projects. In this article, we'll explore Git and GitHub and how they work together.
+As a Rookie on Software, you've probably heard the terms Git and GitHub thrown around quite a bit. These two terms are often used interchangeably but they are not the same thing. Git is a version control system that helps you keep track of changes made to your code over time. GitHub, on the other hand, is a web-based platform that provides hosting for Git repositories and allows for collaboration on code projects. On this page, we'll explore Git and GitHub and how they work together.
 
 ## What is Git?
 

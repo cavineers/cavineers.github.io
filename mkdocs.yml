@@ -110,10 +110,10 @@ nav:
         - Inheritance: Software/Java/inheritance.md
         - Encapsulation: Software/Java/encapsulation.md
   - Git and Github: Software/gitAndGithub.md
-  - Resources:
-    - Resources/index.md
   - Hardware:
       - Hardware/index.md 
+  - Resources:
+    - Resources/index.md
       # - Sensors:
       #   - Hardware/Sensors/index.md
       #   - Digital Sensors: Hardware/Sensors/digital.md
