@@ -49,7 +49,16 @@
     
     
     
-  </head>
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -1431,7 +1440,7 @@
 <h3 id="ut-kpet">u(t) = K<sub>p</sub>e(t)</h3>
 <p>The proportional gain is multiplied by the error to produce the control signal.</p>
 <p>A simple P controller can be modelled as follows:</p>
-<p><img align="center" alt="Simple P Controller Block Diagram" src="/assets\pid-p.png" /></p>
+<p><a class="glightbox" href="/assets\pid-p.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="center" alt="Simple P Controller Block Diagram" src="/assets\pid-p.png" /></a></p>
 <details class="abstract">
 <summary>A Physics Analogy</summary>
 <p>In Hooke's Law, the force applied by a spring is <strong>proportional</strong> to the displacement from its <strong>equilibrium</strong> position. Similarly, the P value in a PID controller determines the <strong>proportional response</strong> of the controller to the error signal, which is the difference between the <strong>desired setpoint</strong> and the actual measured value.</p>
@@ -1460,12 +1469,12 @@
 <li>Steady-state error is the difference between the setpoint and the process variable when the system has reached a steady-state.</li>
 </ul>
 <h3 id="graph">Graph</h3>
-<p><img align="center" alt="Steady State Error Graph" src="/assets\steadystate.png" /></p>
+<p><a class="glightbox" href="/assets\steadystate.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="center" alt="Steady State Error Graph" src="/assets\steadystate.png" /></a></p>
 <div class="admonition success">
 <p class="admonition-title">Solution to Steady State</p>
 <p>Using the Integral term we can solve this issue. Because the integral term accumulates the error over time, it will continue to increase until the error is zero. This means that the integral term will continue to increase until the steady-state error is eliminated.</p>
 <p>Seen in the figure below</p>
-<p><img align="right" alt="Steady State Solution" src="/assets\steadystatesolution.png" /></p>
+<p><a class="glightbox" href="/assets\steadystatesolution.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="Steady State Solution" src="/assets\steadystatesolution.png" /></a></p>
 </div>
 <h2 id="derivative-term">Derivative Term</h2>
 <p>The Derivative term is responsible for adjusting the control output based on the rate of change of the error. This means that the faster the error changes, the larger the corrective action applied to the system.</p>
@@ -1619,5 +1628,5 @@
       <script src="../../../assets/javascripts/bundle.51198bba.min.js"></script>
       
     
-  </body>
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>

@@ -19,7 +19,7 @@
     
     
       
-        <title>Hardware - Cavineers Learning</title>
+        <title>Hardware - Components & Sensors Guide - Cavineers Learning</title>
       
     
     
@@ -49,7 +49,16 @@
     
     
     
-  </head>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -71,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#hardware" class="md-skip">
+        <a href="#hardware-components-sensors-guide" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hardware
+              Hardware - Components & Sensors Guide
             
           </span>
         </div>
@@ -1041,6 +1050,96 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#motors" class="md-nav__link">
+    Motors
+  </a>
+  
+    <nav class="md-nav" aria-label="Motors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#neo-motor" class="md-nav__link">
+    NEO Motor
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#neo-550-motor" class="md-nav__link">
+    NEO 550 Motor
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sensors" class="md-nav__link">
+    Sensors
+  </a>
+  
+    <nav class="md-nav" aria-label="Sensors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#infared-ir-sensor" class="md-nav__link">
+    Infared (IR) Sensor
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ultrasonic-sensor" class="md-nav__link">
+    Ultrasonic Sensor
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#color-sensor" class="md-nav__link">
+    Color Sensor
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inductive-proximity-sensor" class="md-nav__link">
+    Inductive Proximity Sensor
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#capacitive-proximity-sensor" class="md-nav__link">
+    Capacitive Proximity Sensor
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#limit-switches" class="md-nav__link">
+    Limit Switches
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1057,10 +1156,111 @@
   
 
 
-<h1 id="hardware">Hardware</h1>
-<div class="admonition warning">
-<p class="admonition-title">This page is not completed</p>
-<p>Learning material for this section has not been created/implemented</p>
+<h1 id="hardware-components-sensors-guide">Hardware - Components &amp; Sensors Guide</h1>
+<p>Welcome to our comprehensive guide on hardware components and sensors used on our FRC team. This page serves as an educational resource for our team members, providing insights into the capabilities and applications of various robotic components. Whether you're designing a new robot or optimizing an existing one, understanding these components will enhance your engineering decisions.</p>
+<h2 id="motors">Motors</h2>
+<h3 id="neo-motor">NEO Motor</h3>
+<div style="float: left; margin-right: 20px;">
+    <a class="glightbox" href="../../assets/hardware/neo.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/hardware/neo.webp" alt="neo" width="150" ></a>
+</div>
+
+<p>The NEO Motor is a high-performance brushless motor renowned for its efficiency and power. It incorporates an integrated encoder, enabling precise readings of the motor's angle and speed. With a maximum speed of 5588 RPM, its optimal performance is achieved around 3000 RPM.</p>
+<details class="abstract">
+<summary>When to use</summary>
+<p>Ideal for any design component requiring motion, providing both power and control.</p>
+</details>
+<h3 id="neo-550-motor">NEO 550 Motor</h3>
+<div style="float: right; margin-left: 20px;">
+    <a class="glightbox" href="../../assets/hardware/neo550.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/hardware/neo550.webp" alt="mini neo" width="150" ></a>
+</div>
+
+<p>A compact variant of the NEO Motor, the NEO 550 is lightweight yet powerful. Its small form factor makes it perfect for applications where weight or space is a constraint.</p>
+<details class="abstract">
+<summary>When to use</summary>
+<p>Use when designing systems that need to be compact or have limited space without compromising on power.</p>
+</details>
+<h2 id="sensors">Sensors</h2>
+<div class="admonition question">
+<p class="admonition-title">Digital vs. Analog</p>
+<p><strong>Digital Sensors</strong> are simple in design, they output a binary value, 0 or 1, indicating off or on states. An example is a light switch.
+<strong>Analog Sensors</strong> are more complex, these sensors provide a range of values, offering nuanced control and feedback. A dimming switch is a typical example.</p>
+</div>
+<h4 id="infared-ir-sensor">Infared (IR) Sensor</h4>
+<div style="float: left; margin-right: 20px;">
+    <a class="glightbox" href="../../assets/hardware/ir.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/hardware/ir.jpg" alt="ir sensor" width="150" ></a>
+</div>
+
+<ul>
+<li><strong>Type</strong>: Digital Sensor</li>
+<li><strong>Capabilities/Uses</strong>: Detects infrared radiation from objects, useful for sensing within 10cm to 150cm. Variability in detection range depends on the sensor type.</li>
+</ul>
+<details class="note">
+<summary>Past exmaple</summary>
+<p>We used an IR sensor on our 2023 robot, Kelvin, for cube intake detection.</p>
+</details>
+<h4 id="ultrasonic-sensor">Ultrasonic Sensor</h4>
+<div style="float: right; margin-left: 20px;">
+    <a class="glightbox" href="../../assets/hardware/ultrasonic.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/hardware/ultrasonic.webp" alt="ultrasonic" width="150" ></a>
+</div>
+
+<ul>
+<li><strong>Type</strong>: Analog Sensor</li>
+<li><strong>Capabilities</strong>: Employs high-frequency sound waves to measure distances by calculating the time it takes for echoes to return. Ideal for detecting the distance from objects, ensuring spatial awareness.</li>
+</ul>
+<h4 id="color-sensor">Color Sensor</h4>
+<div style="float: left; margin-right: 20px;">
+    <a class="glightbox" href="../../assets/hardware/colorsensor.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/hardware/colorsensor.jpg" alt="color" width="150" ></a>
+</div>
+
+<ul>
+<li><strong>Type</strong>: Analog Sensor</li>
+<li><strong>Capabilities</strong>: Measures object colors by analyzing reflected light. Though not crucial for this year's application, it's valuable for tasks requiring color differentiation. Illuminates an object and analyzes the reflected light's intensity and wavelength.</li>
+</ul>
+<h4 id="inductive-proximity-sensor">Inductive Proximity Sensor</h4>
+<div style="float: right; margin-left: 20px;">
+    <a class="glightbox" href="../../assets/hardware/inductive.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/hardware/inductive.webp" alt="inductive" width="150" ></a>
+</div>
+
+<ul>
+<li><strong>Type</strong>: Digital Sensor</li>
+<li><strong>Capabilities</strong>: Detects metallic objects without contact, using electromagnetic induction.</li>
+</ul>
+<details class="note">
+<summary>Past exmaple</summary>
+<p>We used an Inductive Proximity Sensor on Kelvin (2023). It determined the arm's home position.</p>
+</details>
+<h4 id="capacitive-proximity-sensor">Capacitive Proximity Sensor</h4>
+<div style="float: left; margin-right: 20px;">
+    <a class="glightbox" href="../../assets/hardware/Capacitive.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/hardware/Capacitive.jpg" alt="Capacitive" width="150" ></a>
+</div>
+
+<ul>
+<li><strong>Type</strong>: Digital Sensor</li>
+<li><strong>Capabilities</strong>: Senses non-metallic objects through changes in an electrostatic field, useful for proximity detection without direct contact.</li>
+</ul>
+<h3 id="limit-switches">Limit Switches</h3>
+<p><strong>General Use</strong>: Detects the presence or absence of an object, or a specific position, to prevent mechanism overextension.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Lever Switch</label><label for="__tabbed_1_2">Plunger Switch</label><label for="__tabbed_1_3">Refrigerator Switch</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><div style="float: left; margin-right: 20px;">
+    <a class="glightbox" href="../../assets/hardware/limitswitch.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/hardware/limitswitch.webp" alt="lever switch" width="100" ></a>
+</div>
+Lightweight option for simple detection tasks.</p>
+</div>
+<div class="tabbed-block">
+<p><div style="float: right; margin-left: 20px;">
+    <a class="glightbox" href="../../assets/hardware/plunger.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/hardware/plunger.webp" alt="plunger" width="100" ></a>
+</div><br />
+Durable and capable of withstanding significant force. Used in Jankins (2022).</p>
+</div>
+<div class="tabbed-block">
+<p><div style="float: left; margin-right: 20px;">
+    <a class="glightbox" href="../../assets/hardware/refridgerator.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../assets/hardware/refridgerator.png" alt="refridgerator" width="100" ></a>
+</div>
+Offers high durability. Employed in Kelvin (2023) for robust applications.</p>
+</div>
+</div>
 </div>
 
   <hr>
@@ -1068,7 +1268,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 22, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 15, 2024</span>
       
         <br>
         Created:
@@ -1175,5 +1375,5 @@
       <script src="../assets/javascripts/bundle.51198bba.min.js"></script>
       
     
-  </body>
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>
