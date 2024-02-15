@@ -53,6 +53,7 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
   - git-authors
+  - glightbox
 
 
 
@@ -70,6 +71,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
+  - attr_list
+  - md_in_html
 
   - pymdownx.highlight:
       anchor_linenums: true

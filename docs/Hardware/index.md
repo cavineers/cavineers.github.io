@@ -10,23 +10,25 @@ Welcome to our comprehensive guide on hardware components and sensors used on ou
     <img src="../../assets/hardware/neo.webp" alt="Alt text" width="150" >
 </div>
 
-- **Description/Capabilities**: The NEO Motor is a high-performance brushless motor renowned for its efficiency and power. It incorporates an integrated encoder, enabling precise readings of the motor's angle and speed. With a maximum speed of 5588 RPM, its optimal performance is achieved around 3000 RPM.
-- **When to Use**: Ideal for any design component requiring motion, providing both power and control.
+The NEO Motor is a high-performance brushless motor renowned for its efficiency and power. It incorporates an integrated encoder, enabling precise readings of the motor's angle and speed. With a maximum speed of 5588 RPM, its optimal performance is achieved around 3000 RPM.
+??? abstract "When to use" 
+    Ideal for any design component requiring motion, providing both power and control.
 
 ### NEO 550 Motor
 
+<div style="float: right; margin-left: 20px;">
+    <img src="../../assets/hardware/neo550.webp" alt="Alt text" width="150" >
+</div>
 
-- **Description/Capabilities**: A compact variant of the NEO Motor, the NEO 550 is lightweight yet powerful. Its small form factor makes it perfect for applications where weight or space is a constraint.
-- **When to Use**: Use when designing systems that need to be compact or have limited space without compromising on power.
+A compact variant of the NEO Motor, the NEO 550 is lightweight yet powerful. Its small form factor makes it perfect for applications where weight or space is a constraint.
+??? abstract "When to use"  
+    Use when designing systems that need to be compact or have limited space without compromising on power.
 
 ## Sensors
 
-### Digital vs. Analog Sensors
-
-- **Digital Sensors**: Simple in design, digital sensors output a binary value, 0 or 1, indicating off or on states. An example is a light switch.
-- **Analog Sensors**: More complex, these sensors provide a range of values, offering nuanced control and feedback. A dimming switch is a typical example.
-
-### Specific Sensors
+!!! question "Digital vs. Analog"
+    **Digital Sensors** are simple in design, they output a binary value, 0 or 1, indicating off or on states. An example is a light switch.
+    **Analog Sensors** are more complex, these sensors provide a range of values, offering nuanced control and feedback. A dimming switch is a typical example.
 
 #### IR Sensor
 
