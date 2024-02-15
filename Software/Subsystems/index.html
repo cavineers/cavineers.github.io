@@ -49,7 +49,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -1079,7 +1088,7 @@
 <h1 id="subsystems">Subsystems</h1>
 <p>A mechanical subsystem is a specific part of the robot that will serve a special function. For example, the drivetrain is the subsystem on the robot that serves to drive the robot around the field. Each year the subsystems will change, but the general idea of a subsystem will remain the same.</p>
 <p>In programming, a subsystem is a file that will hold the bulk of the code that is for a single mechanical subsystem. These subsystem files house the declaration of motors and sensors, as well as the methods that will be used to control the subsystem. The subsystem files are then declared in the robot container file, where the subsystems are instantiated and used.</p>
-<p>These are the subsystems from the 2022 Charged UP Robot, Kelvin: <img alt="Alt text" src="../../assets/subsystems.png" /></p>
+<p>These are the subsystems from the 2022 Charged UP Robot, Kelvin: <a class="glightbox" href="../../assets/subsystems.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Alt text" src="../../assets/subsystems.png" /></a></p>
 <h2 id="why-do-we-use-subsystems">Why do we use subsystems?</h2>
 <p>By dividing the robot into different subsystems, we are able to work on different parts of the robot at the same time. For example, one person can work on the drivetrain while another person works on the shooter. Additionally, by organizing the code into separate subsystems, it becomes easier to manage and debug the code, as well as to make changes or upgrades to specific subsystems without affecting the rest of the robot's functionality. By organizing our robot into subsystems, we can also reuse, as similar subsystems from different years can be adapted for use in new designs.</p>
 
@@ -1195,5 +1204,5 @@
       <script src="../../assets/javascripts/bundle.51198bba.min.js"></script>
       
     
-  </body>
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>
