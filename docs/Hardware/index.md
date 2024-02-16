@@ -98,7 +98,6 @@ A compact variant of the NEO Motor, the NEO 550 is lightweight yet powerful. Its
 === "Refrigerator Switch"
     <div style="float: left; margin-right: 20px;">
         <img src="../../assets/hardware/refridgerator.png" alt="refridgerator" width="100" >
-        <img src="https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)" alt="en.wikipedia.org">
     </div>
     Offers high durability. Employed in Kelvin (2023) for robust applications.
   
